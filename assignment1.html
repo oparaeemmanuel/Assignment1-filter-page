@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filter page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assignment1.css">
+    <style>
+        
+    </style>
+</head>
+<body>
+    <div class="assign-wraper">
+        <div class="topest">
+            <div class="logo">
+               <b>e!</b> 
+            </div>
+            <div class="login">
+                <div class="left-log">
+                    Login
+                </div>
+                <div class="right-log">
+                    <input class="log" type="button" value="creat account" placeholder="creat account">
+                </div>
+            </div>
+        </div>
+        <div class="bodi">
+            <div class="first-heading">
+                <h2>Breakfast Places in Mumbai</h2>
+            </div>
+            <div class="left-bodi">
+                <div class="left-content">
+                    <div class="left-h">
+                        <b>Filters</b>
+                    </div>
+                    <form action="select">
+                        <div class="left-s">
+                            <div class="s-l"> Select Location </div>
+                            
+                            <div class="left-places">
+                                <select name="location" id="places">
+                                    <option value="Select">Select Location</option>
+                                    <option value="Imo">Imo</option>
+                                    <option value="Enugu">Enugu</option>
+                                    <option value="Anambra">Anambra</option>
+                                </select>
+                            </div>
+                        </div>                       
+                        <br>
+                        <div class="left-cuisine">
+                            <div class="cuisine"> Cuisine</div>
+                           
+                            <div class="left-e-n">
+                                <input  class="check-e-n" type="checkbox" name="checkbox"><span class="span1">North India</span><br>
+                                <input class="check-e-n" type="checkbox" name="cuisine" checked="checked"><span class="span1">South India</span><br>
+                                <input class="check-e-n" type="checkbox" name="cuisine" checked><span class="span1">Fast Food</span><br>
+                                <input class="check-e-n" type="checkbox" name="cuisine"><span class="span1">Chinese</span><br>
+                                <input class="check-e-n" type="checkbox" name="cuisine"><span class="span1">Street Food</span>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="left-c-f T">
+                            <div class="cost">Cost For Two</div>
+                            <div>
+                                <input class="cf"type="radio" name="cost"><span class="span1">Less than ` 500</span><br>
+                                <input type="radio" name="cost" ><span class="span1">` 500 to ` 1000</span><br>
+                                <input type="radio" name="cost" ><span class="span1">` 1000 to ` 1500</span><br>
+                                <input type="radio" name="cost"><span class="span1">` 1500 to ` 2000</span><br>
+                                <input type="radio" name="cost"><span class="span1">` 2000+</span>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="left-sort">
+                            <div class="sort">Sort</div>
+                            <input type="radio" name="sort"><span class="span1">Price low to high</span><br>
+                            <input type="radio" name="sort" ><span class="span1">Price high to low</span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="right-bodi">
+                <div class="right-up">
+                    <div class="r-u-im-text1">
+                        <div class="right-images">
+                            <img class="image1"src="images/dinner.png" alt="logo" >
+                        </div>
+                        <div class="right-up-text1">
+                            <div class="right-headings"><b> The Big Chill Cakery</b></div>
+                            <div class="fort">FORT</div>
+                            <div class="shop1">Shop 1, Pot D, Samruddhi Complex, Chincholi...</div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="r-u-d-dd-l">
+                        <div class="r-u-d-l">
+                            <div class="right-up-down-left">
+                                CUISINES:
+                            </div>
+                            <div class="right-up-down-right">
+                                Bakery
+                            </div>
+                        </div>
+                        <div class="r-u-dd-l">
+                            <div class="right-up-ddown-left">
+                                COST FOR TWO:
+                            </div>
+                            <div class="right-up-ddown-right">
+                                ₹700
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-down">
+                    <div class="r-u-im-text1">
+                        <div class="right-images">
+                            <img class="image1"src="images/snacks.jpg" alt="logo" >
+                        </div>
+                        <div class="right-up-text1">
+                            <div class="right-headings"><b> The Bake Shop</b></div>
+                            <div class="fort">FORT</div>
+                            <div class="shop1">Shop 1, Pot D, Samruddhi Complex, Chincholi...</div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="r-u-d-dd-l">
+                        <div class="r-u-d-l">
+                            <div class="right-up-down-left">
+                                CUISINES:
+                            </div>
+                            <div class="right-up-down-right">
+                                Bakery
+                            </div>
+                        </div>
+                        <div class="r-u-dd-l">
+                            <div class="right-up-ddown-left">
+                                COST FOR TWO:
+                            </div>
+                            <div class="right-up-ddown-right">
+                                 ₹700
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="num">
+                    <input  class="numb" type="button" value="<">
+                    <input  class="numb" type="button" value="1">
+                    <input  class="numb" type="button" value="2">
+                    <input  class="numb" type="button" value="3">
+                    <input  class="numb" type="button" value="4">
+                    <input  class="numb" type="button" value="5">
+                    <input  class="numb" type="button" value=">">
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
